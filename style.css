@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.topo{
+    padding: 2rem;
+}
+
+#info{
+    width: 60%;
+    margin-left: 1vh;
+    background-color: lightcoral;
+    padding: 1vh;
+    border-radius: 8px;
+
+}
+
+.container-botoes{
+    margin-top: 1rem;
+}
+button{
+    padding: 0.5rem;
+    font-weight: bold;
+    background-color: rgb(83, 237, 83);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.30s;
+}
+button:hover{
+    opacity: 0.7;
+    transform: translateY(-10px); 
+    padding: 0.7rem;
+}
+.palavra {
+    font-size: 70px;
+    margin: 20px;
+}
+  
+.palavra span {
+    margin: 0 10px;
+}
+
+#inputChute{
+    background-color: rgb(129, 181, 129);
+    border: none;
+    border-radius: 5px;
+    margin-top: 5px;
+    padding: 5px;
+    width: 50px;
+}
